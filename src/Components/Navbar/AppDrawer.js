@@ -71,7 +71,7 @@ class AppDrawer extends React.Component {
 
     return (
       <div>
-        <Button onClick={this.toggleDrawer('left', true)}>Open Left</Button>
+        <Button onClick={this.toggleDrawer('left', true)}>Menu</Button>
         <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
           <div
             tabIndex={0}
