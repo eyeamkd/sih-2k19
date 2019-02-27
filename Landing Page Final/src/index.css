@@ -79,6 +79,11 @@ nav ul li a{
 
 }
 
+.something {
+  margin-left: 1%;
+}
+
+
 
 /*------------- HEADER -------------------*/
 
@@ -95,8 +100,8 @@ header div.head {
   position: relative;
   z-index: 2;
   display: grid;
-  width: 70%;
-  grid-template-columns: repeat(2,1fr);
+  width: 50%;
+  grid-template-columns: repeat(1,1fr);
   margin: 0 auto;
   padding-top: 12%;
   align-items: center;
@@ -110,13 +115,13 @@ header div.head  {
 
 
 header div.head h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
   padding-top: 0px;
   margin: 0;
   letter-spacing: 4px;
-  border-right: 2px solid #111;
 }
 
 header div.head p {
@@ -254,11 +259,11 @@ main section div p {
 
 .logo-img {
   width: 250px;
-  margin-top: 
+  padding-left: 0%;
 }
 
 .logo-img img {
-  width: 100%;
+  width: 100%; 
 }
 
  /*------------- SERVICES -------------------*/
